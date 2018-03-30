@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+        <title>
+            Coding Challenge #2
+        </title>
+    </head>
+    <body>
+        
+        <h1>Coding Challenge #2 (EASY)</h1>
+        
+        <script>
+        
+            var birthYear = parseInt(prompt("What year was your dog born?"));    // ask's user what year their dog was born in
+            var currentYear = new Date();                                       // creates a date variable to pull the current year later
+            var age = (currentYear.getFullYear() - birthYear) * 7;             // calculates the age of the dog 
+            
+            
+            alert("Your dog is " + age + " years old.");                     // displays the age of the dog to the user
+            
+        
+        
+        </script>
+        
+    </body>
+</html>
