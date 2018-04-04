@@ -1,4 +1,4 @@
-# coding challeng 2 easy
+# coding challenge 2 easy
 
 Given a birth year, calculate the true age of a dog. (1 human year = 7 dog years)
 
